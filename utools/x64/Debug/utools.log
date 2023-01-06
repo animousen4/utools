@@ -1,3 +1,0 @@
-﻿  test.cpp
-D:\_UNIVERSITY\prog\C_plus_plus\repos\utools\utools\test.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  utools.vcxproj -> D:\_UNIVERSITY\prog\C_plus_plus\repos\utools\x64\Debug\utools.exe

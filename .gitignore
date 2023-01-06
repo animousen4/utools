@@ -2,5 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/utools/v17
-/.vs/utools/FileContentIndex
+/.vs
+/x64
+/utools.sln

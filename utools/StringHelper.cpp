@@ -1,9 +1,9 @@
 #include "StringHelper.h"
 
 
-list<string> StringHelper::separateByDelimiter(string str, list<char> delimiter)
+vector<string> StringHelper::separateByDelimiter(string str, vector<char> delimiter)
 {	
-	list<string> words;
+	vector<string> words;
 	string currentWord;
 	bool delimiterInduck;
 	for (char strC : str) {
@@ -29,9 +29,9 @@ list<string> StringHelper::separateByDelimiter(string str, list<char> delimiter)
 	return words;
 }
 
-list<int> StringHelper::getOnlyNumbers(list<string> strList)
+vector<int> StringHelper::getOnlyNumbers(vector<string> strList)
 {
-	list<int> numList;
+	vector<int> numList;
 	for (string str : strList)
 		if (isNumber(str))
 			numList.push_back(stoi(str));
